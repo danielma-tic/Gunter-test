@@ -6,15 +6,10 @@
     <title>Retune Chat</title>
 </head>
 <body>
-    <iframe
-      data-retune-chat="11ee43b1-f74f-d260-b06e-875c09d55a7f"
-      width="550"
-      height="700"
-      style="border:0;background:white;"
-    ></iframe>
+    <!-- The chat UI will likely be injected here by the script -->
     <script
-      id="retune.so/frame"
-      src="https://retune.so/api/script/chat.js?iframe&id=11ee43b1-f74f-d260-b06e-875c09d55a7f"
+      id="retune.so/chat"
+      src="https://retune.so/api/script/chat.js?id=11ee43b1-f74f-d260-b06e-875c09d55a7f"
       defer
     ></script>
 </body>
